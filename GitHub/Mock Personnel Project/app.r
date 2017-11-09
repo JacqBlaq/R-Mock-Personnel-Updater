@@ -3,9 +3,7 @@ library(shiny)
 library(shinydashboard)
 library(flexdashboard)
 library(shinyjs)
-library(shinythemes)
 library(htmlwidgets)
-library(rhandsontable)
 library(DT)
 library(readxl)
 library(data.table)
@@ -15,16 +13,14 @@ library(fun)
 library(sudoku)
 library(markdown)
 library(lpSolve)
-library(readxl)
 library(dtplyr)
-library(data.table)
 library(timeDate)
 library(lubridate)
 library(xlsx)
 library(readr)
 library(rJava)
 
-
+#global file to access text files needs for word cloud
 source('~/R/Personnel Project/global.R')
 
 # -------------------------------------------------------------------------------------------
@@ -45,7 +41,7 @@ tableauPersonnel$EndDate <- as.Date(tableauPersonnel$EndDate, format = "%Y/%m/%d
 tableauPersonnel$FTE <- as.numeric(tableauPersonnel$FTE)
 
 vals = reactiveValues()
-vals$Data = data.table(tableauPersonnel)
+vals$Data = data.table(tableauPersonnel) #Reactive datatable
 
 #-------------------------------------------------------------------------------------------
 ui <- shinyUI(
