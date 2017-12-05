@@ -80,6 +80,3 @@ beginning.path <- 'Insert directory path to this folder ----->/New File/'
 
 ### Download Files Tab
 <img src="https://image.ibb.co/bTn6Nw/3.png" border="1" width="800px">
-
-#### Disclaimer
-```None of the images used in this app belong to me.```
