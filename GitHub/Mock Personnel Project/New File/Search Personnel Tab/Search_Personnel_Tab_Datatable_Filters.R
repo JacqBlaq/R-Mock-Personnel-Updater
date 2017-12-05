@@ -64,4 +64,4 @@ if(input$noEnd_s == T){
 if(input$yesEnd_s == T){
       ET <- ET[!is.na(ET$EndDate)]
 }
-select(ET, input$filter)
+select(ET, one_of(input$filter))
