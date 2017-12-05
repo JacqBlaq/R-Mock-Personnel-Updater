@@ -66,18 +66,20 @@ beginning.path <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New 
 beginning.path <- 'Insert directory path to this folder ----->/New File/'
 ```
 
+### Expander Tab
+<img src="https://image.ibb.co/d2vFFG/4.png" border="1" width="800px">
 
-Homepage | Query Results Example
---------- | ----------
-<img src="https://image.ibb.co/bxs1pb/5.png" border="1" width="800px"> | <img src="https://image.ibb.co/d2vFFG/4.png" border="1" width="800px">
+### Dashboard Tab
+<img src="https://image.ibb.co/bxs1pb/5.png" border="1" width="800px"> 
 
-### Landscape mode
+### Dashboard Tab
+<img src="https://image.ibb.co/bKJrpb/1.png" border="1" width="870px">
+
+### Search Personnel Tab
+<img src="https://image.ibb.co/dDVhvG/2.png" border="1" width="870px">
+
+### Download Files Tab
 <img src="https://image.ibb.co/bTn6Nw/3.png" border="1" width="800px">
-
-No Data Message | No Network Connection Message
---------- | ----------
-<img src="https://image.ibb.co/bKJrpb/1.png" border="1" width="870px"> | 
-<img src="https://image.ibb.co/dDVhvG/2.png" border="1" width="870px">>
 
 #### Disclaimer
 ```None of the images used in this app belong to me.```
