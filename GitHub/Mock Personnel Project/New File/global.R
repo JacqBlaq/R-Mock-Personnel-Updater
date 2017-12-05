@@ -1,7 +1,3 @@
-library(tm)
-library(wordcloud)
-library(memoise)
-
 beginning.path <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New File/'
 dashboard.tab <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New File/Dashboard Tab/'
 downloadFiles.tab <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New File/Download Files Tab/'
