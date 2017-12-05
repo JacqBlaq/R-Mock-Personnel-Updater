@@ -69,14 +69,15 @@ beginning.path <- 'Insert directory path to this folder ----->/New File/'
 
 Homepage | Query Results Example
 --------- | ----------
-<img src="https://preview.ibb.co/gUCx0w/Screenshot_2017_11_10_09_29_13.png" border="1" width="270px"> | <img src="https://preview.ibb.co/dvhanb/Screenshot_2017_11_10_09_29_33.png" border="1" width="270px">
+<img src="https://image.ibb.co/bxs1pb/5.png" border="1" width="800px"> | <img src="https://image.ibb.co/d2vFFG/4.png" border="1" width="800px">
 
 ### Landscape mode
-<img src="https://preview.ibb.co/cmF6tG/Screenshot_2017_11_10_09_30_31.png" border="1" width="500px">
+<img src="https://image.ibb.co/bTn6Nw/3.png" border="1" width="800px">
 
 No Data Message | No Network Connection Message
 --------- | ----------
-<img src="https://preview.ibb.co/bTjzDG/Screenshot_2017_11_10_09_31_06.png" border="1" width="270px"> | <img src="https://preview.ibb.co/kacx0w/Screenshot_2017_11_10_11_07_05.png" border="1" width="270px">>
+<img src="https://image.ibb.co/bKJrpb/1.png" border="1" width="870px"> | 
+<img src="https://image.ibb.co/dDVhvG/2.png" border="1" width="870px">>
 
 #### Disclaimer
 ```None of the images used in this app belong to me.```
