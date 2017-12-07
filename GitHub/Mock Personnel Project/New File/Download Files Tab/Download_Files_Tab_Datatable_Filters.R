@@ -8,27 +8,21 @@ validate(
 DFT = vals$Data
 #-----------------------------------
 #Filter Start and End dates
-if (input$start_level == "Before"){
-      DFT <- filter(DFT, StartDate < input$searchDate)
-}
-if (input$start_level == "After"){
-      DFT <- filter(DFT, StartDate > input$searchDate)
-}
-if (input$end_level == "Before"){
-      DFT <- filter(DFT, EndDate < input$search_endDate)
-}
-if (input$end_level == "After"){
-      DFT <- filter(DFT, EndDate > input$search_endDate)
-}
+ifelse(input$start_level == "Before",
+       DFT <- filter(DFT, StartDate < input$searchDate),
+       ifelse(input$start_level == "After",
+              DFT <- filter(DFT, StartDate > input$searchDate),
+              DFT <- DFT
+              )#ifelse
+       )#ifelse
 
-#-----------------------------------
-#Filter to show all between radio buttons for Dates
-if (input$start_level == "All"){
-      DFT <- DFT
-}
-if (input$end_level == "All"){
-      DFT <- DFT
-}
+ifelse(input$end_level == "Before",
+       DFT <- filter(DFT, EndDate < input$search_endDate),
+       ifelse(input$end_level == "After",
+              DFT <- filter(DFT, EndDate > input$search_endDate),
+              DFT <- DFT
+              )#ifelse
+       )#ifelse
 # #-----------------------------------
 #Filter Full-time and Part-time employees
 if(input$full_ == T){
