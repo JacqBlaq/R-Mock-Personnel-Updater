@@ -43,26 +43,26 @@ install.packages("wordcloud")
 ### In global.R file update lines 1 to 5
 #### Update with directory paths to each folder location
 ```
-beginning.path <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New File/'
+beginning.path <- 'C:/../../../GitHub/Mock Personnel Project/New File/'
 beginning.path <- 'Insert directory path to this folder -----> /New File/'
 
-dashboard.tab <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New File/Dashboard Tab/'
+dashboard.tab <- 'C:/../../../GitHub/Mock Personnel Project/New File/Dashboard Tab/'
 dashboard.tab <- 'Insert directory path to this folder ----->/Dashboard Tab/'
 
-downloadFiles.tab <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New File/Download Files Tab/'
+downloadFiles.tab <- 'C:/../../../GitHub/Mock Personnel Project/New File/Download Files Tab/'
 downloadFiles.tab <- 'Insert directory path to this folder ----->/Download Files Tab/'
 
-monthlyExpander.tab <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New File/Monthly Expander Tab/'
+monthlyExpander.tab <- 'C:/../../../GitHub/Mock Personnel Project/New File/Monthly Expander Tab/'
 monthlyExpander.tab <- 'Insert directory path to this folder ----->/Monthly Expander Tab/'
 
-searchPerssonel.tab <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New File/Search Personnel Tab/'
+searchPerssonel.tab <- 'C:/../../../GitHub/Mock Personnel Project/New File/Search Personnel Tab/'
 searchPerssonel.tab <- 'Insert directory path to this folder ----->/Search Personnel Tab/'
 
 ```
 ### In app.R file update line 2
 #### Update with directory path to folder location
 ```
-beginning.path <- 'C:/Users/jgboyor/Documents/GitHub/Mock Personnel Project/New File/'
+beginning.path <- 'C:/../../../../Mock Personnel Project/New File/'
 beginning.path <- 'Insert directory path to this folder ----->/New File/'
 ```
 
